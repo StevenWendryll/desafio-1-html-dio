@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/geral.css">
+
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Google Fonts Open Sans-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+
+    <title>Primeiros passos com HTML</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Trilha HTML para iniciantes</h1>
+
+        <hr>
+
+        <h2><strong>Explicando algumas Tags</strong></h2>
+        <p>Abaixo teremos algumas tags mais comuns usadas em HTML e seus respectivos exemplos, no site da <a
+                href="https://www.w3schools.com/html/default.asp">
+                <strong>w3schools</strong></a> você pode saber um pouco mais a fundo sobre tags HTML e suas aplicações.
+
+        <div class="tag-info">
+            <h3><strong>&lt;h1&gt;até &lt;h6&gt;</strong></h3>
+            <p>São tags usadas para definir títulos e subtítulos em uma página HTML, sendo <strong>&lt;h1&gt;</strong> o
+                mais importante e <strong>&lt;h6&gt;</strong> o menos importante. <br>
+            <h1>Título de Nível 1</h1>
+            <h2>Título de Nível 2</h2>
+            <h3>Título de Nível 3</h3>
+            <h4>Título de Nível 4</h4>
+            <h5>Título de Nível 5</h5>
+            <h6>Título de Nível 6</h6>
+            </p>
+        </div>
+
+        <div class="tag-info">
+            <h3><strong>&lt;p&gt;</strong></h3>
+            <p>É a tag usada para definir parágrafos em uma página HTML. <br><br>
+                &lt;p&gt;Este é um parágrafo de texto.&lt;p&gt;
+            </p>
+        </div>
+
+        <div class="tag-info">
+            <h3><strong>&lt;br&gt;</strong></h3>
+            <p>A tag &lt;br&gt; é usada em HTML para inserir uma quebra de linha. Diferente das tags de parágrafo
+                &lt;p&gt;, que criam um bloco de texto com espaço antes e depois, a tag &lt;br&gt; simplesmente move o
+                texto que vem depois dela para a próxima linha sem adicionar espaço extra.</p>
+        </div>
+
+        <div class="tag-info">
+            <h3><strong>&lt;mark&gt;</strong></h3>
+            <p>É utilizada para destacar um trecho de texto, geralmente com um fundo amarelo para chamar a atenção do
+                leitor.<br>
+            <p>Este é um texto com <mark>marcação</mark> para destacar uma parte específica.</p>
+            </p>
+        </div>
+
+        <div class="tag-info">
+            <h3><strong>&lt;small&gt;</strong></h3>
+            <p>Essa tag é usada para definir texto de tamanho menor, muitas vezes para informações secundárias. <br>
+            <p>Este é um texto normal. <small>Este texto é menor.</small></p>
+            </p>
+        </div>
+
+        <div class="tag-info">
+            <h3><strong>&lt;i&gt;</strong></h3>
+            <p>Indica texto em itálico, embora seu uso atualmente seja mais voltado para ênfase semântica do que para
+                itálico visual. <br>
+            <p>Este texto está em <i>itálico</i>.</p>
+            </p>
+        </div>
+
+        <div class="tag-info">
+            <h3><strong>&lt;u&gt;</strong></h3>
+            <p>Usado para sublinhar texto, embora não seja mais recomendado em termos de design web moderno, pois
+                sublinhado geralmente indica um link. <br>
+            <p>Este texto está <u>sublinhado</u>.</p>
+            </p>
+        </div>
+
+        <div class="tag-info">
+            <h3><strong>&lt;strong&gt;</strong></h3>
+            <p>Usado para dar ênfase forte a um texto, geralmente exibido em negrito. <br>
+            <p>Este texto está em <strong>negrito</strong>.</p>
+            </p>
+        </div>
+
+        <div class="tag-info">
+            <h3><strong>&lt;ol&gt;</strong></h3>
+            <p>Cria uma lista ordenada (numerada), onde cada item é precedido por um número. <br>
+            <ol>
+                <li>Primeiro item</li>
+                <li>Segundo item</li>
+                <li>Terceiro item</li>
+            </ol>
+            </p>
+        </div>
+
+        <div class="tag-info">
+            <h3><strong>&lt;ul&gt;</strong></h3>
+            <p>Cria uma lista não ordenada (com marcadores), onde cada item é precedido por um marcador. <br>
+            <ul>
+                <li>Primeiro item</li>
+                <li>Segundo item</li>
+                <li>Terceiro item</li>
+            </ul>
+            </p>
+        </div>
+
+        <div class="tag-info">
+            <h3><strong>&lt;li&gt;</strong></h3>
+            <p>Define um item em uma lista (&lt;ol&gt; ou &lt;ul&gt;). <br>
+            <ul>
+                <li>Item da lista</li>
+            </ul>
+            </p>
+        </div>
+
+        <div class="tag-info">
+            <h3><strong>&lt;a&gt;</strong></h3>
+            <p>É usada para criar um link para outra página ou recurso, e pode conter o atributo href que especifica o
+                endereço do link. <br>
+                <a href="#">Exemplo de link</a>
+            </p>
+        </div>
+
+        <div class="tag-info">
+            <h3><strong>&lt;hr&gt;</strong></h3>
+            <p>Cria uma linha horizontal para separar conteúdo. <br>
+                <hr>
+            </p>
+        </div>
+
+        <div class="tag-info">
+            <h3><strong>&lt;sub&gt;</strong></h3>
+            <p>Define texto como subscrito, que é exibido abaixo da linha de base. <br>
+            <p>Este é um exemplo de texto com H<sub>2</sub>O, onde o "2" está em subscrito.</p>
+            </p>
+        </div>
+
+        <div class="tag-info">
+            <h3><strong>&lt;sup&gt;</strong></h3>
+            <p>Define texto como sobrescrito, que é exibido acima da linha de base. <br>
+            <p>Este é um exemplo de texto com E=mc<sup>2</sup>, onde o "2" está em sobrescrito.</p>
+            </p>
+        </div>
+
+        <div class="tag-info">
+            <h3><strong>&lt;blockquote&gt;</strong></h3>
+            <p>É usado para definir um bloco de citação, geralmente com recuo em relação ao restante do texto. <br>
+            <blockquote>
+                "Este é um exemplo de citação longa."
+            </blockquote>
+            </p>
+        </div>
+
+        <div class="tag-info">
+            <h3><strong>&lt;font&gt;</strong></h3>
+            <p>Esta tag é usada para definir a cor, tamanho e fonte do texto. <br>
+            <p>
+                <font color="red" face="Arial" size="4">Este é um texto estilizado com a tag.</font>
+            </p>
+            </p>
+        </div>
+
+        <div class="tag-info">
+            <h3><strong>&lt;del&gt;</strong></h3>
+            <p>É usada para indicar texto que foi deletado ou removido do documento. <br>
+            <p>Este produto custava <del>$50,00</del> agora custa $30,00.</p>
+            </p>
+        </div>
+
+        <div class="tag-info">
+            <h3><strong>&lt;abbr&gt;</strong></h3>
+            <p>É usada para definir uma abreviação ou acrônimo, passe o mause sobre a palavra 'ONU' para visualizar. <br>
+            <p>A sede da <abbr title="Organização das Nações Unidas">ONU</abbr> está localizada em Nova York.</p>
+            </p>
+        </div>
+
+</body>
+
+</html>
